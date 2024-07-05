@@ -1,4 +1,4 @@
-# Trakteer-Listener
+o# Trakteer-Listener
 
 ## Deskripsi File
 
@@ -51,6 +51,9 @@ Discord.js menyediakan beberapa tipe aktivitas yang bisa digunakan untuk mengatu
    - Digunakan saat bot sedang menonton sesuatu.
    - Contoh penggunaan: `"Watching a movie"`
 
+## Untuk mengubah tipe `ActivityType`
+edit pada file ./src/events/ready.js
+
 ## Contoh Konfigurasi
 
 Berikut adalah contoh cara mengatur presence bot menggunakan nilai `ActivityType`:
@@ -67,6 +70,4 @@ Berikut adalah contoh cara mengatur presence bot menggunakan nilai `ActivityType
         "Enjoying the beats",
         "Chilling with music"
     ]
-}```
-
-### Untuk mengubah tipe `ActivityType` edit pada file ./src/events/ready.js
+}
