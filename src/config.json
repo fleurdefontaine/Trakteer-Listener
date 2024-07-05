@@ -1,5 +1,10 @@
 {
     "prefix": "!",
-    "token": "bot token",
-    "channelIdDeposit": "channel id untuk webhook"
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "channelIdDeposit": "YOUR_CHANNEL_ID_HERE",
+    "RichPresenceText": [
+        "Listening to some tunes",
+        "Enjoying the beats",
+        "Chilling with music"
+    ]
 }
