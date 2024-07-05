@@ -1,0 +1,5 @@
+{
+    "prefix": "!",
+    "token": "bot token",
+    "channelIdDeposit": "channel id untuk webhook"
+}
