@@ -24,32 +24,7 @@ o# Trakteer-Listener
    - Jalankan bot: `node index`
 
 ## Activity Types
-
-Discord.js menyediakan beberapa tipe aktivitas yang bisa digunakan untuk mengatur presence (status dan aktivitas) bot. Berikut adalah nilai-nilai `ActivityType` yang tersedia:
-
-1. **ActivityType.Competing**
-   - Digunakan saat bot sedang berkompetisi dalam sesuatu.
-   - Contoh penggunaan: `"Competing in a tournament"`
-
-2. **ActivityType.Custom**
-   - Digunakan untuk mengatur status khusus.
-   - Contoh penggunaan: `"Feeling happy today"`
-
-3. **ActivityType.Listening**
-   - Digunakan saat bot sedang mendengarkan sesuatu.
-   - Contoh penggunaan: `"Listening to some tunes"`
-
-4. **ActivityType.Playing**
-   - Digunakan saat bot sedang bermain game atau beraktivitas.
-   - Contoh penggunaan: `"Playing Minecraft"`
-
-5. **ActivityType.Streaming**
-   - Digunakan saat bot sedang streaming.
-   - Contoh penggunaan: `"Streaming on Twitch"`
-
-6. **ActivityType.Watching**
-   - Digunakan saat bot sedang menonton sesuatu.
-   - Contoh penggunaan: `"Watching a movie"`
+![Explainitation About `ActivityTypes`](https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType?
 
 ## Untuk mengubah tipe `ActivityType`
 edit pada file ./src/events/ready.js
