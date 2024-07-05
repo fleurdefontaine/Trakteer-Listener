@@ -24,7 +24,7 @@ o# Trakteer-Listener
    - Jalankan bot: `node index`
 
 ## Activity Types
-![Explainitation About `ActivityTypes`](https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType?
+[Explainitation About `ActivityTypes`](https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType?
 
 ## Untuk mengubah tipe `ActivityType`
 edit pada file ./src/events/ready.js
