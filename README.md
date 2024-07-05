@@ -23,6 +23,50 @@
    - Install dependensi: `npm install .`
    - Jalankan bot: `node index`
 
-## Catatan Tambahan
+## Activity Types
 
-Code ini hanyalah contoh untuk Trakteer listener, cocok yang mau membuat auto store dengan deposit melalui Trakteer.
+Discord.js menyediakan beberapa tipe aktivitas yang bisa digunakan untuk mengatur presence (status dan aktivitas) bot. Berikut adalah nilai-nilai `ActivityType` yang tersedia:
+
+1. **ActivityType.Competing**
+   - Digunakan saat bot sedang berkompetisi dalam sesuatu.
+   - Contoh penggunaan: `"Competing in a tournament"`
+
+2. **ActivityType.Custom**
+   - Digunakan untuk mengatur status khusus.
+   - Contoh penggunaan: `"Feeling happy today"`
+
+3. **ActivityType.Listening**
+   - Digunakan saat bot sedang mendengarkan sesuatu.
+   - Contoh penggunaan: `"Listening to some tunes"`
+
+4. **ActivityType.Playing**
+   - Digunakan saat bot sedang bermain game atau beraktivitas.
+   - Contoh penggunaan: `"Playing Minecraft"`
+
+5. **ActivityType.Streaming**
+   - Digunakan saat bot sedang streaming.
+   - Contoh penggunaan: `"Streaming on Twitch"`
+
+6. **ActivityType.Watching**
+   - Digunakan saat bot sedang menonton sesuatu.
+   - Contoh penggunaan: `"Watching a movie"`
+
+## Contoh Konfigurasi
+
+Berikut adalah contoh cara mengatur presence bot menggunakan nilai `ActivityType`:
+
+### `src/config.json`
+
+```json
+{
+    "prefix": "!",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "channelIdDeposit": "YOUR_CHANNEL_ID_HERE",
+    "RichPresenceText": [
+        "Listening to some tunes",
+        "Enjoying the beats",
+        "Chilling with music"
+    ]
+}
+
+### Untuk mengubah tipe `ActivityType` edit pada file ./src/ready.js
