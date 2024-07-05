@@ -67,6 +67,6 @@ Berikut adalah contoh cara mengatur presence bot menggunakan nilai `ActivityType
         "Enjoying the beats",
         "Chilling with music"
     ]
-}
+}```
 
-### Untuk mengubah tipe `ActivityType` edit pada file ./src/ready.js
+### Untuk mengubah tipe `ActivityType` edit pada file ./src/events/ready.js
