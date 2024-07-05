@@ -12,8 +12,8 @@
 ## Instalasi dan Penggunaan
 
 1. **Instalasi**:
-   - Clone repositori ini: `git clone https://github.com/fleurdefontaine/Trakteer-Listener.git Trakteer`
-   - Masuk ke direktori proyek: `cd Trakteer`
+   - Clone repositori ini: `git clone https://github.com/fleurdefontaine/TrakteerListener.git`
+   - Masuk ke direktori proyek: `cd TrakteerListener`
 
 2. **Konfigurasi**:
    - Edit `src/config.json` untuk mengatur prefix, token bot, dan ID channel sesuai kebutuhan.
